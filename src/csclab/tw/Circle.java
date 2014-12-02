@@ -3,6 +3,7 @@ package csclab.tw;
 public class Circle extends Shape {
 	
 	private double radius;
+	private double PI = 3.14;
 	
 	public Circle(double radius){
 		this.radius = radius;
@@ -10,8 +11,7 @@ public class Circle extends Shape {
 	
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return radius*radius*PI;
 	}
 
 }
